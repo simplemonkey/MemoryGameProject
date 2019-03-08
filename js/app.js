@@ -143,12 +143,12 @@ function countMoves(){
         stars.innerHTML=`<li><i class="fa fa-star"></i></li><li><i class="fa fa-star"></i></li><li><i class="fa fa-star"></i></li>`;
         rating.innerHTML=`<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>`;
     }
-    // for moves between 10 and 13 - 2star raing
+    // for moves between 10 and 16 - 2star raing
     if(moves>=10 && moves<16){
         stars.innerHTML=`<li><i class="fa fa-star"></i></li><li><i class="fa fa-star"></i></li>`;
         rating.innerHTML=`<i class="fa fa-star"></i><i class="fa fa-star"></i>`;
     }
-    // for moves greater than 13 - 1 star rating (being the least )
+    // for moves greater than 16 - 1 star rating (being the least )
     else if(moves>=16) {
         stars.innerHTML=`<li><i class="fa fa-star"></i></li>`
         rating.innerHTML=`<i class="fa fa-star"></i>`;
